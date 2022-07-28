@@ -1,0 +1,23 @@
+Gatsby is a tool for creating static websites with React. It allows you to pull your data from virtually anywhere: content management systems (CMSs), Markdown files, APIs, and databases. Gatsby leverages GraphQL and webpack to combine your data and React code to generate static files for your website.
+
+To create a Gatsby site, you’ll need to install the Gatsby CLI. This tool gets you up and running with a Gatsby app in no time. It also runs a development server and builds your Gatsby application for production.
+
+npm install -g gatsby-cli@3.3.0
+
+
+
+Create a New Project with Gatsby
+
+Run gatsby new to create an app using Gatsby’s Hello World starter:
+
+gatsby new gatsby-netlify-okta gatsbyjs/gatsby-starter-hello-world
+If prompted to choose between yarn and npm, choose npm. This process creates a directory layout, adds a package.json with dependencies, and prints out instructions to continue.
+
+Your new Gatsby site has been successfully bootstrapped. Start developing it by running:
+
+  cd gatsby-netlify-okta
+  gatsby develop
+  
+NOTE: You can also use npm start as an alias for gatsby develop. I use npm start to do the default tasks on most of my Node projects. I love this attention to detail from the Gatsby developers! ❤️
+
+You can use the tree command to view your new project’s directory structure.

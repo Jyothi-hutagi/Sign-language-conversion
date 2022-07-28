@@ -1,1 +1,1 @@
-<?php include_once("App.js")?>
+<?php include_once("index.html")?>
